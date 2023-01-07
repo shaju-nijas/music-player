@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&family=Teko&display=swap');
+
+:root {
+    --font-1: 'Rowdies', cursive;
+    --font-2: 'Teko', sans-serif;
+}
+
+body {
+    background: url('headphone.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.title {
+    font-family: var(--font-1);
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.sub-title {
+    font-family: var(--font-2);
+    letter-spacing: 3px;
+}
+
+i.bi {
+    padding: 10px;
+}
+
+.bi {
+    color: white;
+}
+
+.bi:active {
+    color: #fac1be;
+}
+
+.music-title,
+.bi {
+    text-shadow: 1px 1px 2px #fac1be;
+}
+
+@media screen and (max-width: 480px) {
+    .spl {
+        color: #83cac2;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width : 1024px) {
+    .sub-title {
+        color: white;
+        font-size: 40px;
+        text-shadow: 1px 1px 2px #83cac2;
+    }
+
+    .title {
+        color: white;
+        text-shadow: 1px 1px 2px #83cac2;
+    }
+}
+
+@media screen and (min-width : 1024px){
+    .title{
+        color: white;
+        text-shadow: 1px 1px 2px #83cac2;
+        font-size: 80px;
+    }
+    .sub-title{
+        color: white;
+        font-size: 60px;
+        text-shadow: 1px 1px 2px #83cac2;
+    }
+}
